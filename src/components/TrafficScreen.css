@@ -1,0 +1,50 @@
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.traffic {
+  margin: 0 auto;
+  width: 200px;
+  min-height: 530px;
+  border: 1px solid black;
+  background-color: rgb(165, 165, 165);
+}
+
+.flashlight {
+  max-width: 300px;
+  min-height: 150px;
+  border-radius: 100%;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.redGreen,
+.redYellow {
+  background-color: red;
+  opacity: 0.4;
+}
+
+.yellowGreen,
+.yellowRed {
+  background-color: yellow;
+  opacity: 0.4;
+}
+
+.greenYellow,
+.greenRed {
+  background-color: green;
+  opacity: 0.4;
+}
